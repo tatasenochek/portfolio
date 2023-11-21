@@ -1,0 +1,288 @@
+.header {
+  position: absolute;
+  z-index: 2;
+  inset: 93px;
+  display: flex;
+  justify-content: space-between;
+  align-content: end;
+}
+
+.header__logo {
+  width: 116px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__menu {
+  font-size: 18px;
+  color: #fff;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.header__link:focus,
+.header__link:active {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+  z-index: 0;
+  background-image: url(../images/bg.png);
+  background-color: #f5d6ab;
+  background-size: 100%;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: rgba(198, 108, 73, 0.3);
+}
+
+.hero__title {
+  position: relative;
+  z-index: 2;
+  font-size: 64px;
+  padding-top: 267px;
+  padding-bottom: 26px;
+}
+
+.hero__description {
+  position: relative;
+  z-index: 2;
+  font-size: 24px;
+  padding-bottom: 106px;
+}
+
+.hero__link {
+  display: block;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 240px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #fff;
+}
+
+.about {
+  padding-top: 93px;
+  padding-bottom: 115px;
+}
+
+.section-title {
+  color: #333;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.about__title {
+  padding-bottom: 76px;
+}
+
+.about__description {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-bottom: 30px;
+}
+
+.skills {
+  padding-top: 93px;
+  padding-bottom: 145px;
+  background-color: #fffaf2;
+}
+
+.skills__title {
+  padding-bottom: 86px;
+}
+
+.skills__description {
+  display: flex;
+  gap: 60px;
+}
+
+.skills__image {
+  width: 350px;
+  height: 340px;
+}
+
+.skills__table {
+  border-collapse: separate;
+  border-spacing: 60px 0;
+}
+
+.skills__row-title {
+  text-align: left;
+}
+
+.skills__item-title {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 20px;
+  white-space: nowrap;
+}
+
+.skills__row-title th {
+  padding-right: 65px;
+  padding-bottom: 45px;
+  padding-top: 0;
+}
+
+.skills__item-text {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.skills__row {
+  display: table-row;
+}
+
+.progress-bar {
+  width: 446px;
+  height: 24px;
+  background-color: #f5d6ab;
+  position: relative;
+}
+
+.progress-bar-inner {
+  height: 100%;
+  width: 381px;
+  background-color: #c66c49;
+  position: absolute;
+}
+
+.portfolio {
+  position: relative;
+  padding-top: 93px;
+  padding-bottom: 145px;
+}
+
+.portfolio__title {
+  padding-bottom: 86px;
+}
+
+.portfolio__description {
+  display: grid;
+  grid-template-columns: 349px 125px 635px;
+  grid-template-rows: 1fr 48px 403px;
+}
+
+.portfolio__subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.portfolio__text {
+  font-size: 18px;
+  line-height: 1.66;
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+.portfolio__image {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  width: 100%;
+}
+
+.portfolio__slider {
+  display: flex;
+  gap: 14px;
+  position: absolute;
+  inset: 653px 23px;
+}
+
+.portfolio__slider-link {
+  width: 24px;
+  height: 24px;
+}
+
+.portfolio__link {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  background-color: #fffaf2;
+  padding-top: 87px;
+  padding-bottom: 70px;
+}
+
+.footer__title {
+  padding-bottom: 51px;
+}
+
+.footer__contacts {
+  color: #333;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 78px 302px 86px 294px 168px 143px 24px;
+  grid-template-rows: 166px 95px 24px;
+}
+.footer__plptforms-designers-list {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.footer__item {
+  list-style: none;
+}
+.footer__link {
+  text-decoration: none;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer__social-network-list {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.footer__contact-phone-list {
+  grid-column-start: 5;
+  grid-row-start: 1;
+}
+
+.footer__button-up {
+  grid-column-start: 7;
+  grid-row-start: 3;
+}
+.footer__button-link {
+  width: 24px;
+  height: 24px;
+}
+.footer__button-link-up {
+  width: 100%;
+  height: 100%;
+}
